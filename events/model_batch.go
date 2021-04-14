@@ -16,7 +16,7 @@ type Batch struct {
 	APIKeys               []string                     `json:"api_keys,omitempty"`
 	IP                    string                       `json:"ip,omitempty"`
 	IntegrationAttributes map[string]map[string]string `json:"integration_attributes,omitempty"`
-	PartnerIdentity       map[string]string            `json:"partner_identity,omitempty"`
+	PartnerIdentities     map[string]string            `json:"partner_identities,omitempty"`
 	SourceInfo            *SourceInformation           `json:"source_info,omitempty"`
 	MpDeviceid            string                       `json:"mp_deviceid,omitempty"`
 	AttributionInfo       *AttributionInfo             `json:"attribution_info,omitempty"`
